@@ -1,4 +1,4 @@
-QBCore.Functions.CreateUseableItem('policetablet', function(source)
+QBCore.Functions.CreateUseableItem('fingerscanner', function(source)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     if Player.PlayerData.job.type ~= 'leo' then return end
